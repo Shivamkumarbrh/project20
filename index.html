@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBsite</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&family=Orbitron&family=Solway:wght@300&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/14d686e227.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="navbarMobile">
+        <a href="#" id="navbarMobileFirst">Logo</a>
+        <a href="#" id="navbarMobileLast" onclick="navOpen()" ><i class="fa-solid fa-bars"></i></a>
+    </div>
+    <!-- notification -->
+    <div class="sidenavbar" style="display:none; z-index: 6; width: 300px;">
+        <button id="side-first-btn" onclick="sidebtnclose()">Close <i class="fa-solid fa-xmark"></i></button>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4 </a>
+        <a href="#">Link 5</a>
+    </div>
+    <div class="ncation">
+        <div class="ncation-content">
+            <p id="ncation-content-f-p">Oh snap! We just showed you a modal..</p>
+            <p>Because we can </p>
+            <div class="ncation-content-middle">
+                <p>Cool huh? Ok, enough teasing around..</p>
+                <p>Visit CodEBYKumar see more tamplate.</p>
+            </div>
+            <p>Modal Footer</p>
+            <button id="ncation-btn" onclick="closeIt()" ><i class="fa-solid fa-xmark" ></i></button>
+        </div>
+    </div>
+    <div class="navbarMobile1">
+        <a href="#">Team</a>
+        <a href="#">Work</a>
+        <a href="#">Price</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="navbar">
+        <div class="n-left">
+            <a href="" id="n-first" ><i class="fa-solid fa-house"></i>Logo</a>
+            <a href="#">Team</a>
+            <a href="#">Work</a>
+            <a href="#">Price</a>
+            <a href="#">Contact</a>
+            <div class="drowpdown"  onmouseleave="ddownleave()">
+            <a href="#"   onmouseover="ddownenter()" >Dropdown <i class="fa-solid fa-sort-down"></i></a>     
+        </div>
+        </div>      
+        <!-- <div class="n-right">
+            <a href="#" ><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div> -->
+    </div>
+    <div class="dropdown-content" onmouseover="ddownenter()"  onmouseleave="ddownleave()">
+        <a href="">Link1</a>
+        <a href="">Link2</a>
+        <a href="">Link3</a>
+    </div>
+    <!-- background -->
+    <div class="bg">
+        <button  onclick="openIt()" id="bg-btn">CodeBYKumar</button>
+    </div>
+    <div class="our-team">
+        <div class="our-team-container">
+            <h1>OUR TEAM</h1>
+            <p>Meet the team - our office rats:</p>
+            <div class="our-team-img-box">
+                <img src="/img/guy.jpg" alt=""  >
+                <p class="our-team-img-box-p">Johnny Walker</p>
+                <p>Web Designer</p>
+            </div>
+            <div class="our-team-img-box">
+                <img src="/img/guy.jpg" alt="">
+                <p class="our-team-img-box-p">Rebecca Flex</p>
+                <p>Support</p>
+            </div>
+            <div class="our-team-img-box">
+                <img src="/img/guy.jpg" alt="">
+                <p class="our-team-img-box-p">Jan Ringo</p>
+                <p>Boss man</p>
+            </div>
+            <div class="our-team-img-box">
+                <img src="/img/guy.jpg" alt="">
+                <p class="our-team-img-box-p">Kai Ringo</p>
+                <p>Fixer</p>
+            </div>
+        </div>
+    </div>
+    <div class="our-work">
+        <div class="our-work-box">
+            <h2 id="our-work-first-box-heading">Our Work</h2>
+            <p id="our-work-box-first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="our-work-box">
+            <img src="/img/appbg1.jpg" alt="">
+            <ul>
+                <li class="our-work-first">Customer 1</li>
+                <li class="our-work-second">Trade</li>
+                <li>Blablabla</li>
+                <li>Blablabla</li>
+                <li>Blablabla</li>
+                <li>Blablabla</li>
+        </ul>
+    </div>
+    <div class="our-work-box">
+        <img src="/img/appbg2.jpg" alt="">
+        <ul>
+            <li class="our-work-first">Customer 1</li>
+            <li class="our-work-second">Trade</li>
+            <li>Blablabla</li>
+            <li>Blablabla</li>
+            <li>Blablabla</li>
+            <li>Blablabla</li>
+        </ul>
+    </div>
+    <div class="our-work-box">
+        <img src="/img/appbg3.jpg" alt="">
+        <ul>
+            <li class="our-work-first">Customer 1</li>
+            <li class="our-work-second">Trade</li>
+            <li>Blablabla</li>
+            <li>Blablabla</li>
+            <li>Blablabla</li>
+            <li>Blablabla</li>
+        </ul>
+    </div>
+    <div class="circle" onclick="sidebtnopen()">
+        <a href="#" ><i class="fa-solid fa-plus"></i></a>
+    </div>
+  
+    
+</div>
+    <div class="pricing" >
+        <p id="pricing-f">PRICING</p>
+        <p>Choose a pricing plan that fits your needs.</p>
+        <div class="pricing-box">
+            <ul class="price-box">
+                <li id="first">Basic</li>
+                <li><b>10GB</b> Storage</li>
+                <li><b>10</b> Email</li>
+                <li><b>10</b> Domains</li>
+                <li><b>Endless</b> Support</li>
+                <li><b class="price">$ 10</b> <br> per month</li>
+                <li class="last"><button><i class="fa-solid fa-check"></i>Signup</button></li>
+            </ul>
+            <ul class="price-box">
+                <li id="second">Pro</li>
+                <li><b>25GB</b> Storage</li>
+                <li><b>25</b> Email</li>
+                <li><b>25</b> Domains</li>
+                <li><b>Endless</b> Support</li>
+                <li><b class="price">$ 25</b> <br> per month</li>
+                <li class="last"><button><i class="fa-solid fa-check"></i>Signup</button></li>
+            </ul>
+            <ul class="price-box">
+                <li id="third">Premium</li>
+                <li><b>50GB</b> Storage</li>
+                <li><b>50</b> Email</li>
+                <li><b>50</b> Domains</li>
+                <li><b>Endless</b> Support</li>
+                <li><b class="price">$ 50</b> <br> per month</li>
+                <li class="last"><button><i class="fa-solid fa-check"></i>Signup</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact-container">
+            <h3>Contact Us</h3>
+            <p id="contact-c-first">Address</p>
+            <p>Swing by for a cup of coffee, or whatever.</p>
+            <p><i class="fa-solid fa-location-dot"></i>Lucknow</p>
+            <p><i class="fa-solid fa-phone"></i>7000953335</p>
+            <p><i class="fa-solid fa-envelope"></i>Kumar@shivam.com</p>
+        </div>
+    <div class="contact-box">
+        <p>Name</p>
+        <input type="text">
+        <p>Email</p>
+        <input type="email">
+        <p>Message</p>
+        <input type="text">
+        <div class="contact-box-bottom">
+           
+            <span id="contactBoxBottomSpan" ><input type="checkbox" style="display:inline;">I like it!</span>
+            <button>Send</button>
+        </div>
+    </div>
+    </div>
+    <div class="imgContainer">
+        <img src="/img/taj.jpg" alt="">
+    </div>
+    <footer>
+        <p id="footerFirst">Follow us</p>
+        <span>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" id="footerFirstLast"><i class="fa-brands fa-linkedin-in"></i></a>
+        </span>
+        <p>Powered by CodEBYKumar</p>
+        <span id="lastSecond">Go To Top</span>
+        <button><a href="#" id="lastBtn" onmouseover="vis1()" onmouseleave="visOff()"><i class="fa-solid fa-circle-chevron-up"></i></a></button>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

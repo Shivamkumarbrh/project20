@@ -1,0 +1,190 @@
+.our-team{
+    padding: 50px 0px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.our-team-container{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.our-team-container h1,p{
+    width: 100%;
+    box-sizing: border-box;
+}
+.our-team-container p{
+    padding: 25px;
+}
+.our-team-img-box{
+    width: 25%;
+    box-sizing: border-box;
+}
+.our-team-img-box p{
+    padding: 5px;
+}
+.our-team-img-box-p{
+    padding: 0px;
+    font-size: 25px;
+}
+.our-team-img-box img{
+    border-radius: 50%;
+    width:200px;
+}
+.our-work{
+    padding: 70px 10px;
+    position: relative;
+    top: auto;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.our-work-box{
+    width: 24%;
+    box-sizing: border-box;
+}
+.our-work-box img{
+    width: 100%;
+    margin-bottom: -7px;
+}
+.our-work-box ul{
+    background-color: white;
+    color: black;
+    list-style-type: none;
+}
+#our-work-box-first{
+    padding: 20px 0px;
+}
+.our-work-box ul li{
+    padding: 10px 15px;
+}
+.our-work-first{
+    font-size: 25px;
+    padding: 10px 15px;
+}
+.our-work-second{
+   font-size: 20px;
+}
+#our-work-first-box-heading{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.circle{
+    bottom: -25px;
+    /* align-self:baseline; */
+    right: 30px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #009688;
+    position: absolute;
+}
+.circle a{
+    display: block;
+    border-radius: 50%;
+    color: white;
+    padding: 15px;
+    /* width: 25px; */
+}
+.sidenavbar{
+  overflow: auto;
+  position: fixed !important;
+  height: 100%;
+  background-color: white;
+}
+.sidenavbar button{
+    width: 100%;
+    text-align: left;
+    padding: 15px 15px;
+    font-size: 35px;
+    color: #009688;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-bottom: 80px;
+}
+.sidenavbar button:hover{
+    background-color: #ddd;
+}
+.sidenavbar button i{
+    padding: 0px 10px;
+}
+.sidenavbar a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.pricing{
+    width: 100%;
+    padding: 55px 0px 25px 0px;
+}
+#pricing-f{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 25px;
+    color: whit;
+}
+.pricing p{
+    text-align: center;
+}
+.pricing-box{
+    padding: 50px 10px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.price-box{
+    width: 32.2%;
+    /* border: 1px solid #ddd; */
+}
+.price-box li{
+    text-align: center;
+    padding: 20px 0px;
+    list-style: none;
+    border: 1px solid #ddd;
+}
+#first,#second,#third{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 30px 0px;
+}
+#second{
+    background-color: #333;
+}
+.last{
+    padding: 30px 0px;
+    background-color: #ddd;
+}
+.price{
+    font-size: 30px;
+    padding: 5px 0px;
+}
+li button{
+    padding: 12px 20px;
+    border: none;
+    background-color:#009688;
+    color: white;
+}
+li button i{
+    padding: 0px 5px;
+}
+li button:hover{
+    background-color: #aaa;
+    cursor: pointer;
+}
+.price-box:hover{
+    
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.155),0px 2px 10px 0px rgba(0, 0, 0, 0.155) ;
+}
