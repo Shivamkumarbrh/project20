@@ -32,6 +32,8 @@
 }
 .our-team-img-box img{
     border-radius: 50%;
+    object-fit: cover;
+    height: 200px;
     width:200px;
 }
 .our-work{
@@ -82,15 +84,21 @@
     cursor: pointer;
     text-align: center;
     border-radius: 50%;
+   
     background-color: #009688;
     position: absolute;
 }
-.circle a{
+.circle button{
+    height: 50px;
+    object-fit: cover;
+    width: 50px;
+    background-color: #009688;
+    border: none;
     display: block;
+    cursor: pointer;
     border-radius: 50%;
     color: white;
     padding: 15px;
-    /* width: 25px; */
 }
 .sidenavbar{
   overflow: auto;

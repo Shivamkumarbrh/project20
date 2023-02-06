@@ -29,7 +29,15 @@ let navOpen = ()=>{
     let p1 = document.querySelector('.navbarMobile1');
     p1.style.display = 'block'
 }
+let p1 = document.querySelector('.navbarMobile1');
 let navClose = ()=>{
-    let p1 = document.querySelector('.navbarMobile1');
     p1.style.display = 'none'
+}
+let nav = ()=>{
+    if(p1.style.display=='block'){
+        p1.style.display = 'none'
+    }
+    else{
+        p1.style.display = 'block'
+    }
 }

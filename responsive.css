@@ -6,8 +6,8 @@
         padding: 8px 15px;
     }
     .our-team-img-box img{
-        border-radius: 50%;
-        width:120px;
+        height: 130px;
+        width: 130px;
     }
     .our-work-box ul li{
         padding: 7px 15px;
@@ -62,8 +62,8 @@
         box-sizing: border-box;
     }
     .our-team-img-box img{
-        border-radius: 50%;
-        width:200px;
+        height: 100px;
+        width: 100px;
     }
     .our-work-box{
         width: 100%;
